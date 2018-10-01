@@ -21,6 +21,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnLabelImage = findViewById(R.id.btnLabelImage);
         btnRecognizeLandmark = findViewById(R.id.btnRecognizeLandmark);
 
+        btnRecognizeText.setOnClickListener(this);
+        btnDetectFace.setOnClickListener(this);
+        btnScanBarCode.setOnClickListener(this);
+        btnLabelImage.setOnClickListener(this);
+        btnRecognizeLandmark.setOnClickListener(this);
+
     }
 
     @Override
