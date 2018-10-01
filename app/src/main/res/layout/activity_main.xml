@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnRecognizeText"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:text="Recognize Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnDetectFace"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:text="Detect Face"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnScanBarCode"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:text="Scan Barcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnLabelImage"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:text="Label Image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnRecognizeLandmark"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:text="Recognize Landmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
