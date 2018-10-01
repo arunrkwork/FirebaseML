@@ -1,5 +1,6 @@
 package com.test.firebaseml;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,19 +27,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btnRecognizeText:
-
+                 startActivity(new Intent(this, RecognizeTextActivity.class));
                 break;
             case R.id.btnDetectFace:
-
+                startActivity(new Intent(this, DetectFaceActivity.class));
                 break;
             case R.id.btnScanBarCode:
-
+                startActivity(new Intent(this, ScanBarCodeActivity.class));
                 break;
             case R.id.btnLabelImage:
-
+                startActivity(new Intent(this, LabelImageActivity.class));
                 break;
             case R.id.btnRecognizeLandmark:
-
+                startActivity(new Intent(this, RecognizeLanmarksActivity.class));
                 break;
         }
     }
